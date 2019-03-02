@@ -13,9 +13,13 @@ The color descriptor is defined in the file "rgb_feature.py".
 Now that we have our image descriptor defined, and extract  features (i.e. color histograms) from each image in our dataset. The process of extracting features and storing them on persistent storage is commonly called “indexing”.
 
 To index your dataset, you can use this command:<br/>
+
 `python index.py --dataset ./test_images --index index.csv` <br/>
+
 This script shouldn’t take longer than a few seconds to run. After it is finished you will have a new file, index.csv. This file stored the image features of your dataset. <br/>
+
 Open this file using your favorite text editor and take a look inside.<br/>
+
 You’ll see that for each row in the .csv file, the first entry is the filename, followed by a list of numbers. These numbers are your feature vectors and are used to represent and quantify the image.
 
 ## Defining the similarity metric between two images
