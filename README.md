@@ -33,7 +33,7 @@ In the last, the query image is referred in the file "search.py".
 
 We will get 10 images after executing search.py, because we define limit=10 in the line 19 of file "searcher.py", you can modify the value by yourself.
 
-#Result
+## Result
 Query image:
 ![query image](./query/0002_c2s1_068496_01.jpg)
 
