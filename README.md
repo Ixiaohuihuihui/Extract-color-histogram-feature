@@ -27,13 +27,15 @@ In this end, we use `chi-squared distance` which defined in the file "search.py"
 In the last, the query image is referred in the file "search.py".
 
 ## Run this repository
-1. '''python index.py --dataset ./test_images --index index.csv''' \<br>
-2. '''python search.py --index index1.csv --query query/0001_c1s1_002301_00.jpg --result-path ./test_images'''\<br>
+1. `python index.py --dataset ./test_images --index index.csv`
+
+2. `python search.py --index index1.csv --query query/0001_c1s1_002301_00.jpg --result-path ./test_images`
+
 We will get 10 images after executing search.py, because we define limit=10 in the line 19 of file "searcher.py", you can modify the value by yourself.
 
 #Result
 query image:
-![1](https://github.com/Ixiaohuihuihui/RGB_Feature/tree/master/query)
+![query image](https://github.com/Ixiaohuihuihui/RGB_Feature/tree/master/query/0002_c2s1_068496_01.jpg)
 the search result:
 [result](https://github.com/Ixiaohuihuihui/RGB_Feature/tree/master/Result)
 
