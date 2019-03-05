@@ -1,7 +1,7 @@
 # RGB_Feature
 This is a simple demo for image retrieval based on extracting color histogram feature. I just want to do person reidentification based color histogram feature, although it didn't achieve good performance. In this repository, you can learn how to extract color histogram feature, and query an image in a dataset.\<br> 
 ## Note 
-Reference:https://www.pyimagesearch.com/2014/12/01/complete-guide-building-image-search-engine-python-opencv/
+Reference: https://www.pyimagesearch.com/2014/12/01/complete-guide-building-image-search-engine-python-opencv/
 ##  Defining image descriptor
 At this phase you need to decide what aspect of the image you want to describe. Are you interested in the color of the image? The shape of an object in the image? Or do you want to characterize texture?
 
