@@ -31,7 +31,7 @@ In this end, we use `chi-squared distance` which defined in the file "search.py"
 In the last, the query image is referred in the file "search.py".
 
 ## Running this repository
-1. `python index.py --dataset ./test_images --index index.csv`
+1. `python feature_index.py --dataset ./test_images --index index.csv`
 
 2. `python search.py --index index1.csv --query query/0001_c1s1_002301_00.jpg --result-path ./test_images`
 
